@@ -1,17 +1,19 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
     ul {
         list-style-type: none;
-        margin: 0;
-        width: 100%;
+        margin-left: -81px;
+        /* margin-right: -6px; */
+        margin-top: -8px;
+        width: 110%;
         padding: 0;
         text-align:center;
         overflow: hidden;
         background-color: lightslategray;
-        position: sticky;
-        top: 0;
+        position: fixed;
         }
     li {
         display:inline;
@@ -24,6 +26,7 @@
         text-align: center;
         padding: 14px 14px;
         text-decoration: none;
+        margin: 0;
     }
     li a:hover:not(.active) {
         background-color: lightsteelblue;
@@ -31,7 +34,21 @@
     .active {
         background-color: lightskyblue;
     }
-    </style>
+/*     body{
+        background-image: url(florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    } */
+    .parallax {
+      background-image: url(pexels-pixabay-50711.jpg);
+      min-height: 350px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+</style>
 
 <title>Landing Page</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
@@ -45,16 +62,11 @@
     <li><a href="qualifications.html">Qualifications</a></li>
     <li><a class="active">Service</a></li>
   </ul>
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td align="center"><h3><font color="#990000">Welcome!</font></h3></td>
-  </tr>
-  <tr>
-    <td align="center"><font color="#990000"><br><br>This is my landing page. If you would like to access
-    my About page, click <a href="about.html">here</a>!
-  </font></td>
-  </tr>
-</table>
+
+<div class="parallax"></div>
+<div style="height:500px;background-color:white;font-size:36px;">
+  <p>yeet</p>
+</div>
 
 </body>
 </html>
