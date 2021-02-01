@@ -35,8 +35,10 @@
         background-color: lightskyblue;
     }
     .parallax {
-      background-image: url(pexels-pixabay-50711.jpg);
+      background-image: url(florian-olivo-4hbJ-eymZ1o-unsplash.jpg);
       min-height: 400px;
+      margin-left: -8px;
+      margin-right: -8px;
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
@@ -58,10 +60,48 @@
   </ul>
 
 <div class="parallax"></div>
-<div style="height:500px;background-color:white;font-size:36px;">
-  <p>Portfolio page (separate page)
-    Describes technical projects you have completed or would like to complete
-    Provides interesting details for the audience which may include links to your TAMU GitHub repository for these projects, thumbnails, and descriptions</p>
+<div style="height:1000px;background-color:white;line-height:2;font-size:20px;margin:50px;margin-left:150px;margin-right:150px">
+  <h1>Projects</h1>
+  <table width="100%" border="0" cellspacing cellpadding="0">
+    <tbody>
+      <tr>
+        <img src="TM.png" height="250px" width="250px" style= "float: left">
+        <h3>Teachable Machine (Completed)</h3>
+        <p>Taught a teachable machine to distinguish between a clap and a snap. The machine first needs to learn the two behaviors,
+          so I trained it by providing audio samples of whistling, clapping, and silence. This was done on Google's Teachable Machine
+          and uses JavaScript.
+          <a href="https://github.com/austinptran/AI4ALL" style="color: blue" target="_blank">Click here for the repo.</a>
+        </p>
+      </tr>
+    </tbody>
+  </table>
+
+  <table width="100%" border="0" cellspacing cellpading="0">
+    <tbody>
+      <tr>
+        <img src="cpu.png" height="250px" width="250px" style="float: left">
+        <h3>CPU (Completed)</h3>
+        <p>Programmed a fully working single cycle processor and control unit. The
+          processor was designed to utilize datapath components such as registers, arithmetic logic units (ALU), and sign extenders
+          so that it could perform instructions like adding, subtracting, or shifting bits. This was done on the Raspberry Pi 4 B single board computer
+          and uses C and Verilog. <a href="https://github.com/austinptran/CPU" style="color: blue" target="_blank">Click here for the repo.</a>
+        </Thead></p>
+      </tr>
+    </tbody>
+  </table>
+
+  <table width="100%" border="0" cellspacing cellpadding="0">
+    <tbody>
+      <tr>
+        <img src="pathfinding.png" height="250px" width="250px" style="float:left">
+        <h3>Pathfinding Visualizer (Future)</h3>
+        <p>This future project utilizes Dijkstra's Algorithm, an algorithm that finds the shortest path between nodes in a graph. The user is able to create a map
+          of two nodes (start and end) with obstacles between the two, which the program would then animate the search that fans out from the start node. Once it reaches
+          the end node, the program then draws the shortest path from the start node to the end node.
+        </p>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 </body>
