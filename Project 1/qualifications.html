@@ -37,14 +37,22 @@
     .parallax {
       background-image: url(pexels-pixabay-50711.jpg);
       min-height: 400px;
+      margin-left: -8px;
+      margin-right: -8px;
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
     }
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 75%
+    }
 </style>
 
-<title>Landing Page</title>
+<title>Qualifications</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
 </head>
 
@@ -58,11 +66,26 @@
   </ul>
 
 <div class="parallax"></div>
-<div style="height:500px;background-color:white;font-size:36px;">
-  <p>Qualifications page (separate page)
-    Provides your resume in an easily accessible format (PDF preferred but HTML acceptable)
-    Describes your technical skills in addition listing them on your resume
-    Discusses your technical areas of interest in Computer Science and why</p>
+<div style="height:800px;background-color:white;line-height:2;font-size:20px;margin:50px;margin-left:150px;margin-right:150px">
+  <table width="100%" border="0" cellspacing cellpading="0">
+    <tbody>
+      <tr>
+        <p>I have taken Program Design and Concepts, Digital Systems Design, Data Structures and Algorithms, Discrete Structures for Computing,
+          Electrical Circuit Theory, and Computer Architecture and Design. In these classes, I have completed projects from creating a textual minesweeper game
+          to building a processor that can perform arithmetic and load/store instructions. I am interested in computer architecture, software engineering, and AI
+          beacuse I've always felt passion for computer-based systems and helping people, so I may even use my skills for consulting.</p>
+      </tr>
+    </tbody>
+  </table>
+
+  <table width="100%" border="0" cellspacing cellpadding="0">
+    <tbody>
+      <tr>
+        <a href="https://www.linkedin.com/in/austinptran/" style="color: blue; margin:45%;" target="_blank">My LinkedIn</a>
+        <iframe src="Austin_Tran_Resume.pdf" height="750px" class="center"></iframe>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 </body>
